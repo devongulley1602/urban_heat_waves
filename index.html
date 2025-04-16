@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Visualisations</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f7f9fc;
+      margin: 0;
+      padding: 2rem;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    .box {
+      background-color: white;
+      border: 1px solid #ccc;
+      border-radius: 12px;
+      padding: 1rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      max-width: 1200px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .iframe-container {
+      width: 100%;
+      height: 600px;
+      margin-bottom: 0.5rem;
+    }
+
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+      border-radius: 8px;
+    }
+
+    .colorbar {
+      display: block;
+      margin: 0.5rem auto 0 auto;
+      max-width: 100%;
+      height: auto;
+      border-radius: 6px;
+      border: 1px solid #ddd;
+    }
+
+    .caption {
+      text-align: center;
+      font-size: 1rem;
+      font-weight: 500;
+      color: #333;
+      margin-top: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+
+
+<div class="box"> 
+  <div class="iframe-container"> 
+    <iframe src="anom_humidex_PNAPP.html"></iframe> 
+  </div> 
+  <img src="anom_humidex_PNAPP_cbar.png" class="colorbar"> 
+  <div class="caption">Anomaly: Humidex PNAPP</div> 
+</div> 
+ 
+
+
+<div class="box">
+  <div class="iframe-container">
+    <iframe src="anom_humidity_PNAMM.html"></iframe>
+  </div>
+  <img src="anom_humidity_PNAMM_cbar.png" class="colorbar">
+  <div class="caption">Anomaly: Humidity PNAMM</div>
+</div>
+
+<div class="box">
+  <div class="iframe-container">
+    <iframe src="anom_humidity_PNAPP.html"></iframe>
+  </div>
+  <img src="anom_humidity_PNAPP_cbar.png" class="colorbar">
+  <div class="caption">Anomaly: Humidity PNAPP</div>
+</div>
+
+<div class="box">
+  <div class="iframe-container">
+    <iframe src="anom_temperature_PNAMM.html"></iframe>
+  </div>
+  <img src="anom_temperature_PNAMM_cbar.png" class="colorbar">
+  <div class="caption">Anomaly: Temperature PNAMM</div>
+</div>
+
+<div class="box">
+  <div class="iframe-container">
+    <iframe src="anom_temperature_PNAPP.html"></iframe>
+  </div>
+  <img src="anom_temperature_PNAPP_cbar.png" class="colorbar">
+  <div class="caption">Anomaly: Temperature PNAPP</div>
+</div>
+
+<div class="box">
+  <div class="iframe-container">
+    <iframe src="diff_PNAMM-PNAPP_humidex.html"></iframe>
+  </div>
+  <img src="diff_PNAMM-PNAPP_humidex_cbar.png" class="colorbar">
+  <div class="caption">Difference: PNAMM - PNAPP Humidex</div>
+</div>
+
+<div class="box">
+  <div class="iframe-container">
+    <iframe src="diff_PNAMM-PNAPP_temperature.html"></iframe>
+  </div>
+  <img src="diff_PNAMM-PNAPP_temperature_cbar.png" class="colorbar">
+  <div class="caption">Difference: PNAMM - PNAPP Temperature</div>
+</div>
+
+<div class="box">
+  <div class="iframe-container">
+    <iframe src="diff_PNAPP-PNAMM_humidity.html"></iframe>
+  </div>
+  <img src="diff_PNAPP-PNAMM_humidity_cbar.png" class="colorbar">
+  <div class="caption">Difference: PNAPP - PNAMM Humidity</div>
+</div>
+
+
+<div class="box">
+  <div class="iframe-container">
+    <iframe src="typical_summer_maximum_humidity.html"></iframe>
+  </div>
+  <img src="typical_summer_maximum_humidity_cbar.png" class="colorbar">
+  <div class="caption">Typical Summer Max Humidity</div>
+</div>
+
+<div class="box">
+  <div class="iframe-container">
+    <iframe src="typical_summertime_maximum_humidex.html"></iframe>
+  </div>
+  <img src="typical_summer_maximum_humidex_cbar.png" class="colorbar">
+  <div class="caption">Typical Summer Max Humidex</div>
+</div>
+
+<div class="box">
+  <div class="iframe-container">
+    <iframe src="typical_summertime_maximum_temperature.html"></iframe>
+  </div>
+  <img src="typical_summer_maximum_temperature_cbar.png" class="colorbar">
+  <div class="caption">Typical Summer Max Temperature</div>
+</div>
+
+<div class="box">
+  <div class="iframe-container">
+    <iframe src="urban_fraction.html"></iframe>
+  </div>
+  <img src="urban_fraction_colorbar.png" class="colorbar">
+  <div class="caption">Urban Fraction</div>
+</div>
+
+
+<div class="box">
+  <div class="iframe-container">
+    <iframe src="anom_humidex_PNAMM.html"></iframe>
+  </div>
+  <img src="anom_humidex_PNAMM_cbar.png" class="colorbar">
+  <div class="caption">Anomaly: Humidex PNAMM</div>
+</div>
+
+<div class="box">
+  <div class="iframe-container">
+    <iframe src="anom_humidex_PNAPP.html"></iframe>
+  </div>
+  <img src="anom_humidex_PNAPP_cbar.png" class="colorbar">
+  <div class="caption">Anomaly: Humidex PNAPP</div>
+</div>
+
+<div class="box">
+  <div class="iframe-container">
+    <iframe src="diurnal_humidex_by_PNA.html"></iframe>
+  </div>
+  <div class="caption">Humidex by PNA</div>
+</div>
+
+<div class="box">
+  <div class="iframe-container">
+    <iframe src="PNAMM_summer_diurnal_heat_cycles.html"></iframe>
+  </div>
+  <div class="caption">PNAMM Summer Diurnal Heat Cycles</div>
+</div>
+
+<div class="box">
+  <div class="iframe-container">
+    <iframe src="PNAPP_summer_diurnal_heat_cycles.html"></iframe>
+  </div>
+  <div class="caption">PNAPP Summer Diurnal Heat Cycles</div>
+</div>
+
+<div class="box">
+  <div class="iframe-container">
+    <iframe src="Summer_Diurnal_Heat_Cycle.html"></iframe>
+  </div>
+  <div class="caption">Summer Diurnal Heat Cycle</div>
+</div>
+
+<div class="box">
+  <div class="iframe-container">
+    <iframe src="all_diurnal_cycles.html"></iframe>
+  </div>
+  <div class="caption">All Diurnal Cycles</div>
+</div>
+
+
+</body>
+</html>
+
